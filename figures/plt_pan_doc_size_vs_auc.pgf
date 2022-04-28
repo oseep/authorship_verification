@@ -1,0 +1,32 @@
+% This file was created by tikzplotlib v0.9.6.
+\begin{tikzpicture}
+
+\definecolor{color0}{rgb}{0.12156862745098,0.466666666666667,0.705882352941177}
+
+\begin{axis}[
+tick align=outside,
+tick pos=left,
+x grid style={white!69.0196078431373!black},
+xlabel={Chunks},
+xmajorgrids,
+xmin=1.25, xmax=83.75,
+xtick style={color=black},
+y grid style={white!69.0196078431373!black},
+ylabel={AUC},
+ymajorgrids,
+ymin=0.6, ymax=1,
+ytick style={color=black}
+]
+\addplot [line width=0.56pt, color0, mark=*, mark size=2.8, mark options={solid}]
+table {%
+1 0.7146778157263471
+2 0.7851159795255009
+5 0.8728131583510979
+10 0.922383527055845
+20 0.954798917769495
+30 0.966898441778403
+40 0.9723291154825093
+};
+\end{axis}
+
+\end{tikzpicture}

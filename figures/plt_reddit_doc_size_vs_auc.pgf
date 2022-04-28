@@ -1,0 +1,35 @@
+% This file was created by tikzplotlib v0.9.6.
+\begin{tikzpicture}
+
+\definecolor{color0}{rgb}{0.12156862745098,0.466666666666667,0.705882352941177}
+
+\begin{axis}[
+tick align=outside,
+tick pos=left,
+x grid style={white!69.0196078431373!black},
+xlabel={Comments},
+xmajorgrids,
+xmin=1.25, xmax=83.75,
+xtick style={color=black},
+y grid style={white!69.0196078431373!black},
+ylabel={AUC},
+ymajorgrids,
+ymin=0.6, ymax=1,
+ytick style={color=black}
+]
+\addplot [line width=0.56pt, color0, mark=*, mark size=2.8, mark options={solid}]
+table {%
+5 0.801540462889965
+10 0.876579049572056
+15 0.898272444688294
+20 0.918007280780442
+30 0.943172723189992
+40 0.954706658315624
+50 0.96481746171166
+60 0.968390972212595
+70 0.973365306221024
+80 0.973574340304872
+};
+\end{axis}
+
+\end{tikzpicture}
