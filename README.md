@@ -14,7 +14,11 @@ If you used this work, please cite our paper:
 	title        = {Using Authorship Verification to Mitigate Abuse in Online Communities},
 	author       = {Weerasinghe, Janith and Singh, Rhia and Greenstadt, Rachel},
 	year         = 2022,
-	month        = {June},
+	month        = {May},
 	journal      = {Proceedings of the International AAAI Conference on Web and Social Media},
-}
+	volume       = 16,
+	number       = 1,
+	pages        = {1075--1086},
+	url          = {https://ojs.aaai.org/index.php/ICWSM/article/view/19359}
+ }
 ```
